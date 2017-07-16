@@ -1,0 +1,14 @@
+{
+  "name": "lamda-edge",
+  "license": "BSD",
+  "author": "Aleksei Lunacharskii",
+  "version": "0.0.1",
+  "description": "Sets lambda associations for AWS Cloudfront events (aka AWS LambdaEgde)",
+  "bin": {
+    "set-lambda-edge": "bin/set-lambda-edge.js"
+  },
+  "repository": "git@github.com:alun/lambda-edge.git",
+  "dependencies": {
+    "aws-sdk": "^2.85.0"
+  }
+}
